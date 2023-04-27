@@ -2,7 +2,7 @@ import telebot
 import threading
 import time
 
-from parse_urk_pravda import get_all_news, get_new_news
+from parse_urk_pravda import get_new_news
 
 bot = telebot.TeleBot("5996577299:AAG5toKk9eNcUi6DA3tXRbX5yUqPEiZQps4", parse_mode="MARKDOWN")
 
